@@ -1,0 +1,9 @@
+markdown: kramdown
+baseurl: 'http://www.grupoicu.com.pa/'
+url: 'http://www.grupoicu.com.pa/'
+exclude: ['README.md']
+permalink: /:title/
+include: ["_pages"]
+sass:
+  sass_dir:          _sass
+  style:            :compressed

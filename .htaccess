@@ -1,0 +1,2 @@
+ErrorDocument 404 http://www.grupoicu.com.pa/404.html
+ErrorDocument 500 http://www.grupoicu.com.pa/500.html
