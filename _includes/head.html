@@ -1,0 +1,27 @@
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% if page.description %}
+    <meta name="description" content="{{ page.description }}" />
+  {% endif %}
+
+  <title>
+    {% if page.title %}
+      {{ page.title }}
+    {% else %}
+      Grupo ICU Panamá - Construcción, Losas Postensadas, Diseño Structural
+    {% endif %}
+  </title>
+
+  <link href="{{ site.baseurl }}style.css" type="text/css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="/assets/favicon.png">
+
+  {% include analytics.html %}
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab' rel='stylesheet' type='text/css'>
+
+</head>
