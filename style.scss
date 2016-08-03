@@ -1,7 +1,12 @@
 ---
 # GrupoICU SASS Stylesheet
 ---
+$primary: #F8C42F;
+$secondary: #333;
+
+$page-width: 90%;
 
 @import "normalize";
 @import "typography";
+@import "header";
 @import "misc";
