@@ -1,0 +1,16 @@
+.slider {
+  background-image: url('/assets/example.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  h1 {
+    display: table;
+    padding: 1em;
+    color: #fff;
+
+    white-space: pre-wrap;
+    span {
+      background: rgba(255, 255, 255, .1);
+      vertical-align: middle;
+    }
+  }
+}

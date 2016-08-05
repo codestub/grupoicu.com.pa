@@ -3,7 +3,7 @@
   padding: 1em 0 1em 0;
   width: $page-width;
   margin: auto;
-  font-size: 0.8em;
+  font-size: 0.9em;
 
   svg {
     fill: $secondary;
@@ -26,4 +26,43 @@
       text-align: right;
     }
   }
+}
+
+.logo {
+  width: 40em;
+  display: block;
+  margin: auto;
+  padding-bottom: 1em;
+}
+
+.navigation {
+  background-color: $primary;
+  border-bottom: $secondary $nav-height/10 solid;
+  height: $nav-height;
+  ul {
+    text-align: center;
+    margin: 0 auto;
+    width: -webkit-fit-content;
+       width: -moz-fit-content;
+            width: fit-content;
+    li {
+      display: inline-block;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff;
+      float: left;
+      padding: 0.5em 1em;
+      &:hover {
+        background-color: $secondary;
+      }
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
+
+#current {
+  background-color: $secondary;
 }

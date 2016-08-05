@@ -3,8 +3,6 @@ html {
 }
 
 .flex-container {
-  padding: 0;
-  margin: 0;
   list-style: none;
 
   display: -webkit-box;
@@ -14,5 +12,14 @@ html {
   display: flex;
 
   -webkit-flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+.page-width {
+  width: $page-width;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
 }
