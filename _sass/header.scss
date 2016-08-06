@@ -49,11 +49,12 @@
       display: inline-block;
       text-transform: uppercase;
       text-align: center;
-      color: #fff;
+      color: $secondary;
       float: left;
       padding: 0.5em 1em;
       &:hover {
         background-color: $secondary;
+        color: $primary;
       }
       a {
         text-decoration: none;

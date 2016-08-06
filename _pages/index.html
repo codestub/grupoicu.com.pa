@@ -21,12 +21,11 @@ permalink: /index
 
   $(function() {
 
-    // Make the banner image fit perfectly
-    $(".banner").css("height", $(window).height() - $(".header-area").height());
+    /* Make the slider image fit the page perfectly */
     $(".slider").css("height", $(window).height() - $(".header-area").height());
 
-    // Make the quotation section exactly a quarter of the screen height
-
+    /* Make the quotation bar occupy a quarter of the screen */
+    $(".quotation").css("height", $(window).height() / 4);
   });
 
 </script>
