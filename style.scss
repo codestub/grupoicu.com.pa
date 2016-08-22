@@ -2,15 +2,17 @@
 # GrupoICU SASS Stylesheet
 ---
 $primary: #f8c42f;
-$secondary: #000;
-
-$nav-height: 2.3em;
+$secondary: #333;
+$offwhite: #fff;
 
 $page-width: 85%;
 
 @import "normalize";
 @import "typography";
-@import "header";
+@import "contact-details";
+@import "logo";
+@import "navigation";
 @import "misc";
-@import "slider";
-@import "elements";
+@import "banner";
+@import "quotation";
+@import "companies";

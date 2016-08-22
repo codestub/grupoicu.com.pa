@@ -4,28 +4,18 @@ permalink: /index
 ---
 
 
-<div class="slider">
+<div class="banner">
 
-  <h1 class="page-width"><span> Construyendo <br /> un mejor Panamá <br /> desde 1970 </span></h1>
+  <h2 class="page-width"><span> Construyendo <br /> un mejor Panamá <br /> desde 1970 </span></h2>
 
 </div>
 
-<section class="quotation">
+{% include quotation.html %}
 
-</section>
-
-
-
+{% include companies.html %}
 
 <script>
-
   $(function() {
-
-    /* Make the slider image fit the page perfectly */
-    $(".slider").css("height", $(window).height() - $(".header-area").height());
-
-    /* Make the quotation bar occupy a quarter of the screen */
-    $(".quotation").css("height", $(window).height() / 4);
+    $(".banner").css("height", $(window).height() - $(".header-area").height());
   });
-
 </script>

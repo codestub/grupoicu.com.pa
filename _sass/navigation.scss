@@ -1,0 +1,24 @@
+#current {
+  border-bottom: 0.2em solid $primary;
+}
+
+.navigation {
+  ul {
+    text-align: center;
+    list-style: none;
+    width: $page-width;
+    margin: 0.7em auto 0.7em auto;
+    li {
+      display: inline-block;
+      margin-right: 3em;
+      &:hover {
+        border-bottom: 0.2em solid $primary;
+      }
+      a {
+        text-decoration: none;
+        color: $secondary;
+        font-size: 1.2em;
+      }
+    }
+  }
+}

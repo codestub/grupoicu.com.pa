@@ -1,0 +1,30 @@
+.quotation {
+  background-color: $primary;
+  color: $offwhite;
+  table {
+    padding: 1.5em 0;
+    td {
+      &:first-child {
+        text-align: left;
+        padding-right: 5em;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
+  }
+  h3, p {
+    margin: 0;
+  }
+  a {
+    margin-top: 1em;
+    padding: 1em 3em;
+    border: 0.1em solid $offwhite;
+    text-decoration: none;
+    color: $offwhite;
+    &:hover {
+      background-color: $offwhite;
+      color: $primary;
+    }
+  }
+}

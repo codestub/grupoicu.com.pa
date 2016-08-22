@@ -1,0 +1,29 @@
+.contact-details {
+  list-style: none;
+  padding: 0.6em 0 0.8em 0;
+  width: $page-width;
+  margin: auto;
+  font-size: 0.9em;
+
+  svg {
+    fill: $secondary;
+    height: 1.3em;
+    vertical-align: middle;
+  }
+
+  li {
+    display: inline-block;
+    width: 33%;
+    float: left;
+    color: $secondary;
+    &:nth-child(1) {
+      text-align: left;
+    }
+    &:nth-child(2) {
+      text-align: center;
+    }
+    &:nth-child(3) {
+      text-align: right;
+    }
+  }
+}

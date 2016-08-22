@@ -1,12 +1,11 @@
-.slider {
+.banner {
   background-image: url('/assets/example.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  h1 {
+  h2 {
     display: table;
-    padding: 1em;
-    color: #fff;
-
+    padding-top: 2em;
+    color: $offwhite;
     white-space: pre-wrap;
     span {
       background: rgba(255, 255, 255, .1);

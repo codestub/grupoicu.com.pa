@@ -1,10 +1,18 @@
 <nav class="navigation">
   <ul>
-    <li id="{% if page.url == '/' %}current{% endif %}"><a href="{{ site.baseurl }}">Inicio</a></li>
-    <li id="{% if page.url contains 'item1' %}current{% endif %}"><a href="{{ site.baseurl }}item1">Item 1</a></li>
-    <li id="{% if page.url contains 'item2' %}current{% endif %}"><a href="{{ site.baseurl }}item2">Item 2</a></li>
-    <li id="{% if page.url contains 'item3' %}current{% endif %}"><a href="{{ site.baseurl }}item3">Item 3</a></li>
-    <li id="{% if page.url contains 'item4' %}current{% endif %}"><a href="{{ site.baseurl }}item4">Item 4</a></li>
-    <li id="{% if page.url contains 'contact' %}current{% endif %}"><a href="{{ site.baseurl }}contact">Contact</a></li>
+    <li><a href="{{ site.baseurl }}">Inicio</a></li>
+    <li><a href="{{ site.baseurl }}item1">Construcción</a></li>
+    <li><a href="{{ site.baseurl }}item2">Postensadas</a></li>
+    <li><a href="{{ site.baseurl }}item3">Diseño</a></li>
+    <li><a href="{{ site.baseurl }}item4">Inspecciones</a></li>
+    <li><a href="{{ site.baseurl }}contact">Contactenos</a></li>
   </ul>
 </nav>
+
+<script>
+    $('nav a').each(function() {
+      if ($(this).attr("href") == window.location.pathname) {
+        $(this).parent().attr("id", "current");
+      }
+    });
+</script>

@@ -1,0 +1,39 @@
+.companies-section {
+  padding-top: 10em;
+  padding-bottom: 10em;
+}
+
+.company-icon {
+  height: 5em;
+}
+
+.companies-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+#element1, #element2, #element3 {
+  text-align: center;
+  flex-direction: column;
+  align-self: flex-end;
+  h4 {
+    margin-top: 0;
+  }
+  a {
+    padding: 1em 3em;
+    border: 0.1em solid $primary;
+    text-decoration: none;
+    color: $primary;
+    &:hover {
+      background-color: $primary;
+      color: $offwhite;
+    }
+  }
+}
+
+#element1, #element2 {
+  padding-right: 3em;
+}
