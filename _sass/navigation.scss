@@ -7,16 +7,16 @@
     text-align: center;
     list-style: none;
     width: $page-width;
-    margin: 0.7em auto 0.7em auto;
+    margin: 0.7em auto 0 auto;
     li {
       display: inline-block;
-      margin-right: 3em;
+      margin-right: 2.5em;
       &:hover {
         border-bottom: 0.2em solid $primary;
       }
       a {
         text-decoration: none;
-        color: $secondary;
+        color: $darkgrey;
         font-size: 1.2em;
       }
     }

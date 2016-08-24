@@ -1,10 +1,23 @@
+// Border box fix
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+// Stop the scroll bar shifting everything over
 html {
     overflow-y: scroll;
+    background-color: $offwhite;
 }
 
 .flex-container {
-  list-style: none;
-
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -24,4 +37,17 @@ html {
 
 .text-center {
   text-align: center;
+}
+
+.fadeInBlock {
+    opacity:0;
+}
+
+.header-area {
+  padding-bottom: 0.7em;
+}
+
+section, .header-area {
+  display: block;
+  background-color: $offwhite;
 }

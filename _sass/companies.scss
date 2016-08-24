@@ -5,6 +5,7 @@
 
 .company-icon {
   height: 5em;
+  fill: #282c34;
 }
 
 .companies-container {
@@ -18,7 +19,7 @@
 #element1, #element2, #element3 {
   text-align: center;
   flex-direction: column;
-  align-self: flex-end;
+  align-self: center;
   h4 {
     margin-top: 0;
   }

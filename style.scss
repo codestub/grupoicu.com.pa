@@ -2,8 +2,9 @@
 # GrupoICU SASS Stylesheet
 ---
 $primary: #f8c42f;
-$secondary: #333;
 $offwhite: #fff;
+$darkgrey: #282c34;
+$lightgrey: rgba(40, 44, 52, 0.9);
 
 $page-width: 85%;
 
@@ -16,3 +17,7 @@ $page-width: 85%;
 @import "banner";
 @import "quotation";
 @import "companies";
+@import "statistics";
+@import "projects";
+@import "testimonial";
+@import "footer";

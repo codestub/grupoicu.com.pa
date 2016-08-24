@@ -1,0 +1,27 @@
+.statistics {
+  background-image: url('/assets/construction.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  figure {
+    margin:0;
+    background-color: rgba(248, 196, 47, 0.6);;
+    h3, h4 {
+      color: $offwhite;
+      margin: 0;
+    }
+    div {
+      display: -webkit-box;
+      display: -moz-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      justify-content: space-between;
+      align-items: center;
+      div {
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+  }
+}
