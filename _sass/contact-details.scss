@@ -9,9 +9,7 @@
     vertical-align: middle;
   }
   li {
-    display: inline-block;
     width: 33%;
-    float: left;
     color: $darkgrey;
     &:nth-child(1) {
       text-align: left;

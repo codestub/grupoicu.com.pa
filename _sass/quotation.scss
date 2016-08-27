@@ -1,23 +1,22 @@
 .quotation {
   background-color: $primary;
+}
+
+.quotation-container {
+  background-color: $primary;
   color: $offwhite;
-  table {
-    padding: 1.5em 0;
-    td {
-      &:first-child {
-        text-align: left;
-        padding-right: 5em;
-      }
-      &:last-child {
-        text-align: right;
-      }
-    }
+  padding: 2em 0;
+  justify-content: space-between;
+  -webkit-align-content: center;
+  align-content: center;
+  div {
+    padding-right: 1em;
   }
   h3, p {
     margin: 0;
   }
   a {
-    margin-top: 1em;
+    text-align: center;
     padding: 1em 3em;
     border: 0.1em solid $offwhite;
     text-decoration: none;

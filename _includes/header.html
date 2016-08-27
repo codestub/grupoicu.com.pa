@@ -4,6 +4,34 @@
 
   {% include logo.html %}
 
-  {% include nav.html %}
+  <nav class="normal-menu">
+    {% include nav.html %}
+  </nav>
+
+  <div class="responsive-menu-toggle">
+    <span>Menú</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+          <g stroke-width="18">
+            <path d="M19 53h262M19 256h262M19 153h262"/>
+          </g>
+    </svg>
+  </div>
+
+  <nav class="responsive-menu">
+    {% include nav.html %}
+  </nav>
+
+  <script>
+    /* When toggle button is clicked, slide down the responsive menu */
+    $(".responsive-menu-toggle").click(function() {
+      $(".responsive-menu").slideToggle();
+    });
+    /* Need to hide the responsive menu if the window is then resized */
+    $(window).on('resize', function () {
+      if ($(window).width() > 960) {
+         $('.responsive-menu').hide();
+      }
+     });
+  </script>
 
 </header>

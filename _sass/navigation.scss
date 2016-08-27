@@ -2,15 +2,16 @@
   border-bottom: 0.2em solid $primary;
 }
 
-.navigation {
+.normal-menu {
   ul {
+    padding: 0;
     text-align: center;
     list-style: none;
     width: $page-width;
     margin: 0.7em auto 0 auto;
     li {
       display: inline-block;
-      margin-right: 2.5em;
+      margin: 0 1em;
       &:hover {
         border-bottom: 0.2em solid $primary;
       }
@@ -21,4 +22,12 @@
       }
     }
   }
+}
+
+.responsive-menu-toggle {
+  display: none;
+}
+
+.responsive-menu {
+  display: none;
 }

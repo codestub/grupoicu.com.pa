@@ -17,6 +17,14 @@ html {
     background-color: $offwhite;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
 .flex-container {
   display: -webkit-box;
   display: -moz-box;
@@ -27,7 +35,7 @@ html {
   -webkit-flex-flow: row wrap;
   justify-content: space-between;
   -webkit-align-content: center;
-   align-content: center;
+  align-content: center;
 }
 
 .page-width {
